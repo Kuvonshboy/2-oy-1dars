@@ -1,0 +1,36 @@
+.uyga2{
+    width: 1000px;
+    height: auto;
+    margin: 50px auto;
+    background-color: coral;
+    padding: 50px;
+    display: grid;
+    gap: 10px;
+
+    grid-template-columns: repeat(12, 1fr);
+}
+.box{
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    padding: 10px;
+    background-color: #ffa07a;
+}
+.half{
+    grid-column: span 6;
+}
+.fourth{
+    grid-column: span 3;
+}
+.third{
+    grid-column: span 4;
+}
+.fullwiht{
+    grid-column: span 12;
+}
+.sixth{
+    grid-column: span 2;
+}
+.futur{
+    grid-column: span 6;
+}
